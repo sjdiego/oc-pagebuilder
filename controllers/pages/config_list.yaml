@@ -1,0 +1,12 @@
+list: $/rw/pagebuilder/models/page/columns.yaml
+modelClass: Rw\PageBuilder\Models\Page
+title: Pages
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'rw/pagebuilder/pages/update/:id'

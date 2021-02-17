@@ -1,0 +1,23 @@
+fields:
+
+    name:
+        label: Nombre
+        span: left
+        type: text
+
+    image:
+        label: 'Miniatura'
+        span: right
+        type: fileupload
+        mode: image
+
+    partial:
+        label: 'Partial'
+        span: left
+        type: dropdown
+
+    fields:
+        label: 'Campos a mostrar'
+        span: left
+        type: checkboxlist
+        quickselect: true

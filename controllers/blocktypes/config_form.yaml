@@ -1,0 +1,10 @@
+name: BlockTypes
+form: $/rw/pagebuilder/models/blocktype/fields.yaml
+modelClass: Rw\PageBuilder\Models\BlockType
+defaultRedirect: rw/pagebuilder/blocktypes
+create:
+    redirect: 'rw/pagebuilder/blocktypes/update/:id'
+    redirectClose: rw/pagebuilder/blocktypes
+update:
+    redirect: rw/pagebuilder/blocktypes
+    redirectClose: rw/pagebuilder/blocktypes

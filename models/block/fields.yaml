@@ -1,0 +1,62 @@
+fields:
+
+    name:
+        label: Nombre
+        span: left
+        type: text
+
+    _example:
+        span: right
+        type: partial
+        dependsOn: type_id
+        path: ~/plugins/rw/pagebuilder/controllers/blocks/_field_example.htm
+
+    type_id:
+        label: Tipo
+        span: left
+        type: dropdown
+        emptyOption: '-- Seleccione tipo de bloque --'
+
+    is_active:
+        label: Visible
+        span: left
+        type: switch
+        on: on
+        off: off
+
+    _details:
+        label: Datos del bloque
+        type: section
+        span: full
+
+    fields[title]:
+        label: Título
+        span: left
+        type: text
+        dependsOn: type_id
+
+    fields[video]:
+        label: Código video Youtube
+        span: left
+        type: text
+        dependsOn: type_id
+
+    fields[url]:
+        label: URL
+        span: left
+        type: text
+        dependsOn: type_id
+
+    fields[content]:
+        label: Contenido
+        span: left
+        type: richeditor
+        size: huge
+        dependsOn: type_id
+
+    images:
+        label: Imagenes
+        span: auto
+        type: fileupload
+        mode: image
+        dependsOn: type_id

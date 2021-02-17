@@ -1,0 +1,49 @@
+fields:
+
+    name:
+        label: Título
+        span: left
+        type: text
+
+    is_active:
+        label: Visible
+        span: right
+        type: switch
+
+tabs:
+
+    fields:
+
+        code@create:
+            label: Código
+            tab: Configuración
+            span: left
+            type: text
+            preset:
+                field: name
+                type: camel
+
+        slug:
+            label: URL
+            tab: Configuración
+            span: left
+            type: text
+            preset:
+                field: name
+                type: slug
+
+        featuredImage@update:
+            label: Imagen destacada
+            tab: Configuración
+            span: right
+            type: fileupload
+            mode: image
+            imageHeight: 300
+            imageWidth: 600
+
+        blocks@update:
+            label: Bloques
+            tab: Configuración
+            span: left
+            type: partial
+            path: field_blocks

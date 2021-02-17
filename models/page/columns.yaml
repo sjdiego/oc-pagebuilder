@@ -1,0 +1,16 @@
+columns:
+
+    name:
+        label: Título
+        searchable: true
+        type: text
+
+    slug:
+        label: URL
+        searchable: true
+        type: text
+
+    is_active:
+        label: Visible
+        type: switch
+        width: 5%

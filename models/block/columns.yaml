@@ -1,0 +1,19 @@
+columns:
+
+    name:
+        label: Bloque
+        type: text
+        sortable: false
+
+    typeLabel:
+        label: Tipo
+        type: text
+        sortable: false
+        searchable: false
+
+    is_active:
+        label: Visible
+        width: 15%
+        type: switch
+        sortable: false
+        searchable: false

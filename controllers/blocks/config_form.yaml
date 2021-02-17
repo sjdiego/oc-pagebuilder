@@ -1,0 +1,10 @@
+name: Blocks
+form: $/rw/pagebuilder/models/block/fields.yaml
+modelClass: Rw\PageBuilder\Models\Block
+defaultRedirect: rw/pagebuilder/blocks
+create:
+    redirect: 'rw/pagebuilder/blocks/update/:id'
+    redirectClose: rw/pagebuilder/blocks
+update:
+    redirect: rw/pagebuilder/blocks
+    redirectClose: rw/pagebuilder/blocks

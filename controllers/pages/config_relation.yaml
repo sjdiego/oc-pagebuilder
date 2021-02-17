@@ -1,0 +1,9 @@
+blocks:
+    label: Blocks
+    view:
+        list: $/rw/pagebuilder/models/block/columns.yaml
+        toolbarButtons: create|delete|link|unlink
+        showSearch: false
+        recordsPerPage: 30
+    manage:
+        form: $/rw/pagebuilder/models/block/fields.yaml

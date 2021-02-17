@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table rw_pagebuilder_pages'
+    - create_table_pages.php
+1.0.3:
+    - 'Created table rw_pagebuilder_block_types'
+    - create_table_block_types.php
+1.0.4:
+    - 'Created table rw_pagebuilder_blocks'
+    - create_table_blocks.php
+1.0.5:
+    - 'Created table rw_pagebuilder_block_page'
+    - create_table_block_page.php

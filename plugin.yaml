@@ -1,0 +1,14 @@
+plugin:
+    name: 'rw.pageBuilder::lang.plugin.name'
+    description: 'rw.pageBuilder::lang.plugin.description'
+    author: RW
+    icon: oc-icon-diamond
+    homepag e: ''
+
+navigation:
+
+    main-menu-pages:
+        label: Páginas
+        url: rw/pagebuilder/pages
+        icon: icon-files-o
+        order: 100

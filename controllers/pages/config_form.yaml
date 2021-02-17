@@ -1,0 +1,10 @@
+name: Pages
+form: $/rw/pagebuilder/models/page/fields.yaml
+modelClass: Rw\PageBuilder\Models\Page
+defaultRedirect: rw/pagebuilder/pages
+create:
+    redirect: 'rw/pagebuilder/pages/update/:id'
+    redirectClose: rw/pagebuilder/pages
+update:
+    redirect: rw/pagebuilder/pages
+    redirectClose: rw/pagebuilder/pages
